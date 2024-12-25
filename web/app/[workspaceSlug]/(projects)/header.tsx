@@ -51,7 +51,7 @@ export const WorkspaceDashboardHeader = () => {
               width={16}
               alt="GitHub Logo"
             />
-            <span className="hidden text-xs font-medium sm:hidden md:block">Star us on GitHub</span>
+
           </a>
         </Header.RightItem>
       </Header>
