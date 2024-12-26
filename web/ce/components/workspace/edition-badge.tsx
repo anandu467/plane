@@ -16,20 +16,7 @@ export const WorkspaceEditionBadge = observer(() => {
 
   return (
     <>
-      <PaidPlanUpgradeModal
-        isOpen={isPaidPlanPurchaseModalOpen}
-        handleClose={() => setIsPaidPlanPurchaseModalOpen(false)}
-      />
-      <Tooltip tooltipContent={`Version: v${packageJson.version}`} isMobile={isMobile}>
-        <Button
-          tabIndex={-1}
-          variant="accent-primary"
-          className="w-fit min-w-24 cursor-pointer rounded-2xl px-2 py-1 text-center text-sm font-medium outline-none"
-          onClick={() => setIsPaidPlanPurchaseModalOpen(true)}
-        >
-          Upgrade
-        </Button>
-      </Tooltip>
+
     </>
   );
 });
