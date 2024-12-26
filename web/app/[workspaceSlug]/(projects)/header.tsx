@@ -33,8 +33,6 @@ export const WorkspaceDashboardHeader = () => {
             </Breadcrumbs>
           </div>
         </Header.LeftItem>
-        <Header.RightItem>
-        </Header.RightItem>
       </Header>
     </>
   );
