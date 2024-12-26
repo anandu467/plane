@@ -99,6 +99,5 @@ export const SIDEBAR_WORKSPACE_MENU: Partial<Record<TSidebarWorkspaceMenuItemKey
 export const SIDEBAR_WORKSPACE_MENU_ITEMS: TSidebarWorkspaceMenuItems[] = [
   SIDEBAR_WORKSPACE_MENU?.projects,
   SIDEBAR_WORKSPACE_MENU?.["all-issues"],
-  SIDEBAR_WORKSPACE_MENU?.["active-cycles"],
   SIDEBAR_WORKSPACE_MENU?.analytics,
 ].filter((item): item is TSidebarWorkspaceMenuItems => item !== undefined);
